@@ -28,7 +28,6 @@ from torch import Tensor, BoolTensor, Size
 from typing import *
 
 from zuko.distributions import Distribution, DiagNormal, NormalizingFlow
-from zuko.flows import FlowModule, MAF
 from zuko.transforms import FreeFormJacobianTransform
 from zuko.utils import broadcast
 
